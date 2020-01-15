@@ -1,0 +1,89 @@
+
+body {
+    background-color: rgb(167, 0, 0);
+}
+
+h1 {
+    color: rgba(255, 174, 0, 0.658);
+    font-family: monospace;
+}
+
+h3 {
+    color: rgb(255, 174, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#menuBG {
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* Changed formMenu to flex box to center easily. */
+#frmMenu {
+    display: flex;
+    width: 100%;
+    text-align: left;
+}
+
+/* Represents size, vegetables, and meats */
+.menu {
+    width: 100%;
+    margin: 10px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to bottom right, rgb(167, 0, 0), rgb(180, 0, 0));
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.right {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: left;
+}
+
+#cart {
+    top: 0;
+    margin: 20px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    width: 120px;
+    height: 40px;
+}
+
+
+
+/* Targeting the inputs in the frmMenu */
+#frmMenu > div > input {
+    margin-left: 30px;
+}
+
+.optionsHeader {
+    text-align: center;
+}
