@@ -37,6 +37,7 @@ div {
     margin: 10px;
     padding-bottom: 20px;
     background-image: linear-gradient(to bottom right, rgb(167, 0, 0), rgb(180, 0, 0));
+    border-radius: 10px;
 }
 
 #totalPrice {
